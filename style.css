@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Header Section */
+.header, .intro, .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-family: 'Hero', sans-serif;
+}
+
+.header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 5rem;
+    font-size: 1.125rem;
+}
+
+.header h3 {
+    font-size: 1.5rem;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, .intro p {
+    color: #e5e7eb;
+}
+
+/* Intro Section */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7rem;
+    padding-bottom: 4rem;
+    flex-wrap: wrap-reverse;
+    gap: 1.5rem;
+}
+
+.intro .text {
+    max-width: 55rem;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.intro p, button {
+    font-size: 1.125rem;
+}
+
+.intro img {
+    width: 20rem; 
+    height: auto;
+}
+
+button, .modal {
+    background-color: #3882f6;
+    border-radius: 0.5rem;
+    border-style: solid;
+    color: white;
+    padding: 0.3rem 1.5rem;
+} 
+
+.intro button {
+    border: none;
+}
+
+/* Rest of the Page */
+.image-group, .quote, .modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Images Section */
+.image-header {
+    margin-top: 3rem;
+    font-size: 2.25rem;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5rem;
+    gap: 1rem;
+}
+
+.image-and-subtext, .image-and-subtext img {
+    text-align: center;
+    width: 12rem;
+}
+
+/* Quotes Section */
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 4rem 8rem;
+}
+
+.quote-text {
+    max-width: 55rem;
+}
+
+.quote h1 {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 2.25rem;
+}
+
+.quote p {
+    font-weight: 900;
+    text-align: right;
+}
+
+/* Modal Section */
+.modal {
+    margin: 5.5rem auto;
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 45rem;
+}
+
+.modal p, .modal h3 {
+    margin: 0;
+}
+
+.modal button {
+    border-color: white;
+    flex: none;
+}
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    padding: 2rem;
+}
